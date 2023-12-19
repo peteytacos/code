@@ -20,6 +20,7 @@ function golfScore(par, strokes) {
 }
 
 console.log(golfScore(5, 4));
+// End
 
 // Card Count
 let count = 0;
@@ -53,6 +54,7 @@ cc(3);
 cc(7);
 cc("K");
 cc("A");
+// End
 
 // Dunno
 function phoneticLookup(val) {
@@ -73,13 +75,14 @@ function phoneticLookup(val) {
 }
 
 phoneticLookup("charlie");
+// End
 
-//Testing Objects for Properties
+// Testing Objects for Properties
 function checkObj(obj, checkProp) {
-  // Only change code below this line
   if (obj.hasOwnProperty(checkProp)) {
     return obj[checkProp];
   } else {
     return "Not Found";
   }
 }
+// End
